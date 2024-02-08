@@ -39,6 +39,7 @@ export const register = async (req, res) => {
 };
 
 // login a user and return a token
+
 export const login = async (req, res) => {
   try {
     const { email, password } = req.body;
